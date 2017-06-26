@@ -1,5 +1,3 @@
-
-
 class ZillowError(Exception):
     def __init__(self, response):
         super(ZillowError, self).__init__(
